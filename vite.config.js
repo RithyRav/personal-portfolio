@@ -19,19 +19,19 @@ export default defineConfig({
         start_url: '/personal-portfolio/', // ត្រូវដាក់ឈ្មោះ Repo របស់អ្នក
         scope: '/personal-portfolio/',     // ត្រូវដាក់ឈ្មោះ Repo របស់អ្នក
         icons: [
-          {
-            src: 'pwa-192x192.png',
-            sizes: '192x192',
-            type: 'image/png',
-            purpose: 'any maskable'
-          },
-          {
-            src: 'pwa-512x512.png',
-            sizes: '512x512',
-            type: 'image/png',
-            purpose: 'any maskable'
-          }
-        ]
+  {
+    src: '/personal-portfolio/pwa-192x192.png', // បន្ថែម Path ពេញលេញ
+    sizes: '192x192',
+    type: 'image/png',
+    purpose: 'any' 
+  },
+  {
+    src: '/personal-portfolio/pwa-512x512.png', // បន្ថែម Path ពេញលេញ
+    sizes: '512x512',
+    type: 'image/png',
+    purpose: 'any'
+  }
+]
       }
     })
   ],
