@@ -27,5 +27,5 @@ export default defineConfig({
       }
     })
   ],
-  base: '/your-repo-name/', // ដូរត្រង់នេះទៅជាឈ្មោះ GitHub Repository របស់អ្នក
+  base: '/personal-portfolio/',
 })

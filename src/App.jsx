@@ -64,7 +64,7 @@ function App() {
           </div>
         </section>
 
-        {/* 3. Projects Section */}
+       {/* 3. Projects Section */}
         <section className="mb-8">
           <h3 className="text-2xl font-bold text-[#1f2937] mb-4">Recent Projects</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
