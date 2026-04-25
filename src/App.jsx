@@ -68,23 +68,43 @@ function App() {
         <section className="mb-8">
           <h3 className="text-2xl font-bold text-[#1f2937] mb-4">Recent Projects</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="border border-[#e5e7eb] rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow">
+            
+            {/* Project 1 */}
+            <div className="border border-[#e5e7eb] rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <h4 className="text-lg font-bold text-[#1f2937]">CWG HR Payroll API</h4>
-              <p className="text-[#4b5563] text-sm mt-2 mb-3">A comprehensive backend structure for managing employee records and company data.</p>
-              <div className="text-xs text-[#2563eb] font-mono bg-[#eff6ff] inline-block px-2 py-1 rounded">Tech: Python, Flask, SQL Server</div>
+              <p className="text-[#4b5563] text-sm mt-2 mb-3 flex-grow">A comprehensive backend structure for managing employee records and company data.</p>
+              <div className="mb-3">
+                <span className="text-xs text-[#2563eb] font-mono bg-[#eff6ff] inline-block px-2 py-1 rounded">Tech: Python, Flask, SQL Server</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#2563eb] text-sm font-semibold hover:underline inline-flex items-center gap-1">
+                View Project ↗
+              </a>
             </div>
             
-            <div className="border border-[#e5e7eb] rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow">
+            {/* Project 2 */}
+            <div className="border border-[#e5e7eb] rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <h4 className="text-lg font-bold text-[#1f2937]">AI Dubber Ultimate</h4>
-              <p className="text-[#4b5563] text-sm mt-2 mb-3">A video dubbing application featuring advanced video effects and live previews.</p>
-              <div className="text-xs text-[#2563eb] font-mono bg-[#eff6ff] inline-block px-2 py-1 rounded">Tech: Python</div>
+              <p className="text-[#4b5563] text-sm mt-2 mb-3 flex-grow">A video dubbing application featuring advanced video effects and live previews.</p>
+              <div className="mb-3">
+                <span className="text-xs text-[#2563eb] font-mono bg-[#eff6ff] inline-block px-2 py-1 rounded">Tech: Python</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#2563eb] text-sm font-semibold hover:underline inline-flex items-center gap-1">
+                View Project ↗
+              </a>
             </div>
 
-            <div className="border border-[#e5e7eb] rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow">
+            {/* Project 3 */}
+            <div className="border border-[#e5e7eb] rounded-lg p-5 shadow-sm hover:shadow-md transition-shadow flex flex-col">
               <h4 className="text-lg font-bold text-[#1f2937]">Telegram Chat Management Inbox</h4>
-              <p className="text-[#4b5563] text-sm mt-2 mb-3">A live customer message handling system built via a Telegram bot interface.</p>
-              <div className="text-xs text-[#2563eb] font-mono bg-[#eff6ff] inline-block px-2 py-1 rounded">Tech: Next.js, Socket.io</div>
+              <p className="text-[#4b5563] text-sm mt-2 mb-3 flex-grow">A live customer message handling system built via a Telegram bot interface.</p>
+              <div className="mb-3">
+                <span className="text-xs text-[#2563eb] font-mono bg-[#eff6ff] inline-block px-2 py-1 rounded">Tech: Next.js, Socket.io</span>
+              </div>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#2563eb] text-sm font-semibold hover:underline inline-flex items-center gap-1">
+                View Project ↗
+              </a>
             </div>
+
           </div>
         </section>
 
