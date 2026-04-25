@@ -98,11 +98,11 @@ function App() {
             </p>
             <p className="flex items-center gap-2">
               <span className="font-semibold text-[#1f2937]">LinkedIn:</span> 
-              <a href="#" className="text-[#2563eb] hover:underline">linkedin.com/in/ravrithy</a>
+              <a href="https://www.linkedin.com/in/rav-rithy-b78997405/" className="text-[#2563eb] hover:underline">linkedin.com/in/ravrithy</a>
             </p>
             <p className="flex items-center gap-2">
               <span className="font-semibold text-[#1f2937]">GitHub:</span> 
-              <a href="#" className="text-[#2563eb] hover:underline">github.com/ravrithy</a>
+              <a href="https://github.com/RithyRav" className="text-[#2563eb] hover:underline">github.com/ravrithy</a>
             </p>
           </div>
         </section>
