@@ -1,0 +1,23 @@
+{
+  "name": "Rav Rithy Portfolio",
+  "short_name": "Portfolio",
+  "description": "Personal portfolio website exam project",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/personal-portfolio/",
+  "scope": "/personal-portfolio/",
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
